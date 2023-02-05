@@ -20,7 +20,7 @@ export default function Settings() {
           <ListItem.Content>
             <ListItem.Title style={{ color: "white", fontWeight: "bold" }}>
               <Button
-                title='Connect your scooter'
+                title='Connect your device'
                 onPress={() => navigation.navigate("BluetoothSettings")}
               />
             </ListItem.Title>
