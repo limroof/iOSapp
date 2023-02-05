@@ -18,16 +18,47 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSBluetoothAlwaysUsageDescription ": "This app Scan Scooters."
+      },
+      "bundleIdentifier": "com.isma094.apollo"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "permissions": [
+        "android.permission.BLUETOOTH",
+        "android.permission.BLUETOOTH_ADMIN",
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.BLUETOOTH_CONNECT",
+        "android.permission.BLUETOOTH_SCAN",
+        "android.permission.BLUETOOTH_ADVERTISE"
+      ],
+      "package": "com.isma094.apollo"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "with-rn-bluetooth-classic",
+        {
+          "peripheralUsageDescription": "Allow myDevice to check bluetooth peripheral info",
+          "alwaysUsageDescription": "Allow myDevice to always use bluetooth info",
+          "protocols": [
+            "com.myCompany.p1",
+            "com.myCompany.p2"
+          ]
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "b658bd3d-9bda-4457-a1a3-cc52799d9f8d"
+      }
     }
   }
 }

@@ -1,0 +1,38 @@
+export const data = [
+  {
+    id: "bd7acbea-c1b1-46c2-aed5-3ad53abb28ba",
+    title: "theft\nand\nloss",
+    subtitle: "Apollo Care + Theft and Loss",
+    imageSrc: require("../../../assets/homepage-slider1-item1.png"),
+    price: "$129 USD or $6.99/mo.",
+    bg: require('("../../../assets/homepage-slider1-item1-bg.png'),
+    bgPosition: "top right",
+  },
+  {
+    id: "3ac68afc-c605-48d3-a4f8-fbd91aa97f63",
+    title: "apollo\nCare",
+    subtitle: "Apollo Care",
+    imageSrc: require("../../../assets/homepage-slider1-item1.png"),
+    price: "$129 USD or $6.99/mo.",
+    bg: require('("../../../assets/homepage-slider1-item2-bg.png'),
+    bgPosition: "bottom right",
+  },
+  {
+    id: "58694a0f-3da1-471f-bd96-145571e29d72",
+    title: "apollo\nCare",
+    subtitle: "Apollo Care",
+    imageSrc: require("../../../assets/homepage-slider1-item1.png"),
+    price: "$129 USD or $6.99/mo.",
+    bg: require('("../../../assets/homepage-slider1-item1-bg.png'),
+    bgPosition: "top right",
+  },
+  {
+    id: "58694a0f-3da1-471f-bd96-145571e2asd9d72",
+    title: "apollo\nCare",
+    subtitle: "Apollo Care",
+    imageSrc: require("../../../assets/homepage-slider1-item1.png"),
+    price: "$129 USD or $6.99/mo.",
+    bg: require('("../../../assets/homepage-slider1-item2-bg.png'),
+    bgPosition: "bottom right",
+  },
+];
