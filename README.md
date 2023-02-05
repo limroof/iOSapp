@@ -1,13 +1,12 @@
-# iOSapp
 # Instructions
 
-### In visual Studio Code
-npm install
+### 1) In visual Studio Code
+npm install<br>
 npx start expo
 
-### On the iPhone
-install expo go app on an iOs Device
+### 2) On the iPhone
+install expo go app on an iOs Device<br>
 Register then login
 
-### Press r to reload the app in the terminal of visual studio
+### 3) In visual Studio Code press r to reload the app in the terminal
 open the server in expo go app
